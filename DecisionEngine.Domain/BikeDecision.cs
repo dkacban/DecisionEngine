@@ -18,7 +18,7 @@ namespace DecisionEngine.Domain
             Customer = customer;
         }
 
-        public BikeDecision GetDecision()
+        public Decision GetDecision()
         {
             return Decision;                                                                               
         }
