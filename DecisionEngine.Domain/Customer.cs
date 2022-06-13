@@ -10,9 +10,14 @@ namespace DecisionEngine.Domain
     {
         public string FirstName { get; set; }
         public string EmailAdress { get; set; }
-        public bool Sex { get; set; }
+        public Gender Sex { get; set; }
         public double Height { get; set; }
         public double Leglenght { get; set; }
-
+    }
+    
+    public enum Gender
+    {
+        Male,
+        Female
     }
 }
